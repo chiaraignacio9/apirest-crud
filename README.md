@@ -1,7 +1,7 @@
 ## CRUD SPRING BOOT WITH SPRING SECURITY
 Es un proyecto básico en SpringBoot basado en Api Rest implementando seguridad, y devolviendo los objetos json en cada petición.
 
-Usuarios para las pruebas:
+## Usuarios para las pruebas:
 * username: admin 
 * password: admin
 * roles: ROLE_ADMIN, ROLE_USER
@@ -12,16 +12,19 @@ Usuarios para las pruebas:
 * roles: ROLE_USER
 ------------------------
 
-DEPENDENCIAS:
+## DEPENDENCIAS:
 * Spring Security
 * Spring Data JPA
 * Spring WEB
 * Base de datos utilizada: H2
 
-##URL's
+## URL's
 
 Create = /products/new-product 
+
 Read = /products
+
 Update = /products/{id}
+
 Deleted = /products/{id}
 
