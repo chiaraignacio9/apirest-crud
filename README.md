@@ -28,3 +28,5 @@ Update = /products/{id}
 
 Deleted = /products/{id}
 
+Documentación = /swagger-ui.html
+
