@@ -15,11 +15,6 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
-    @GetMapping("/index")
-    public String index(){
-        return "index";
-    }
-
     @GetMapping("/products")
     public List<Product> findAll(){
         return productService.findAll();
